@@ -1,18 +1,24 @@
 .container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+
+    border: 5px;
+    border-style: solid;
+
+    height: 960px;
+    width: 960px;
+
+}
+
+.row {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .gridElement {
+    display: flex;
+    flex: 1;
     border: 1px;
     border-style: solid;
-    width: 25px; 
-    height: 25px; 
-    flex-shrink: 1;
-
-}
-
-.hover {
-    background-color: red;
 }
