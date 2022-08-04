@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gridElement {
+    border: 1px;
+    border-style: solid;
+    width: 25px; 
+    height: 25px; 
+    flex-shrink: 1;
+
+}
