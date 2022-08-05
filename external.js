@@ -25,8 +25,11 @@ function removeGrid() {
 
 
 function sizeButtonClick() {
-    let size = prompt("Input Grid Size");
+    let size = prompt("Input Grid Size (max. 100)");
     GRIDSIZE = Number(size);
+    if (GRIDSIZE > 100) {
+        GRIDSIZE = 100;
+    }
     removeGrid();
     createGrid(GRIDSIZE);
 
