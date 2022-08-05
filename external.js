@@ -15,7 +15,7 @@ function createGrid(GRIDSIZE) {
     let grid = document.querySelectorAll(".gridElement");
     grid.forEach(element => element.addEventListener("mouseenter", function() {this.classList.add("hover")}));
 
-    grid.forEach(element => element.addEventListener("mouseleave", function() {this.classList.remove("hover")}));
+    //grid.forEach(element => element.addEventListener("mouseleave", function() {this.classList.remove("hover")}));
 
 }
 
